@@ -8,7 +8,9 @@ index: false
 **Docker容器**与虚拟机类似，但二者在原理上不同。容器是将操作系统层虚拟化，虚拟机则是虚拟化硬件，因此容器更具有便携性、高效地利用服务器。 容器更多的用于表示 软件的一个标准化单元。由于容器的标准化，因此它可以无视基础设施（Infrastructure）的差异，部署到任何一个地方。另外，Docker也为容器提供更强的业界的隔离兼容。    
 ## 安装
 ```
-curl -sSL https://get.docker.com/ | sh
+curl -sSL https://get.docker.com/ | bash
+# 镜像
+curl -sSL https://raw.bestrui.top/docker/docker-install/refs/heads/master/install.sh | bash -s docker --mirror Aliyun
 ```
 ## 目录
 - [ 常用命令 ](config.md)
